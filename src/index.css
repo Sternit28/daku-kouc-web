@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Môžeš pridať vlastné štýly sem */
+body {
+  @apply bg-white text-gray-800;
+  scroll-behavior: smooth;
+}
